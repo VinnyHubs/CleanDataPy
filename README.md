@@ -13,39 +13,28 @@ Raw datasets are often messy, containing missing values, duplicates, and irregul
 
 I followed a step-by-step approach to clean the dataset:
 
-Data Loading
+1. Data Loading
+   -Imported the dataset using Pandas.
+   -Conducted an initial exploration to understand the structure.
 
-Imported the dataset using Pandas.
+2. Handling Missing Values
+   -Identified missing data.
+   -Applied methods like dropna(), fillna(), and forward/backward fill depending on the context.
 
-Conducted an initial exploration to understand the structure.
+3. Removing Duplicates
+   -Checked for duplicates using df.duplicated().
+   -Removed them with df.drop_duplicates().
 
-Handling Missing Values
+4. Outlier Detection & Treatment
+   -Identified outliers using statistical methods (IQR, z-score).
+   -Treated/remapped values where necessary to reduce noise.
 
-Identified missing data.
+5. Data Transformation
+   -Standardized column formats (date, strings, numeric values).
+   -Renamed inconsistent column names for clarity.
 
-Applied methods like dropna(), fillna(), and forward/backward fill depending on the context.
-
-Removing Duplicates
-
-Checked for duplicates using df.duplicated().
-
-Removed them with df.drop_duplicates().
-
-Outlier Detection & Treatment
-
-Identified outliers using statistical methods (IQR, z-score).
-
-Treated/remapped values where necessary to reduce noise.
-
-Data Transformation
-
-Standardized column formats (date, strings, numeric values).
-
-Renamed inconsistent column names for clarity.
-
-Final Dataset
-
-Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
+6. Final Dataset
+   -Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
 
 
 ⚙️ Technologies Used
