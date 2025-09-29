@@ -47,15 +47,6 @@ Final Dataset
 
 Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
 
-📂 Project Structure
-📁 Python-Cleaning-Project
-│
-├── 📓 Python Cleaning project.ipynb   # Jupyter Notebook with code & outputs
-├── 📄 README.md                        # Project documentation
-├── 📂 data                             # Raw & cleaned dataset
-│    ├── raw_data.csv
-│    └── cleaned_data.csv
-└── requirements.txt                    # Libraries used
 
 ⚙️ Technologies Used
 
