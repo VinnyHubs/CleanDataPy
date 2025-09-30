@@ -12,33 +12,33 @@ Raw datasets are often messy, containing missing values, duplicates, and irregul
 
 I followed a step-by-step approach to clean the dataset:
 
-1.Data Loading
+1. Data Loading
 
--Imported the dataset using Pandas.
+• Imported the dataset using Pandas.
 
--Conducted an initial exploration to understand the structure.
+• Conducted an initial exploration to understand the structure.
 
-2.Handling Missing Values
+2. Handling Missing Values
 
--Identified missing data.
+• Identified missing data.
 
--Applied methods like dropna(), fillna(), and forward/backward fill depending on the context.
+• Applied methods like dropna(), fillna(), and forward/backward fill depending on the context.
 
-3.Removing Duplicates
+3. Removing Duplicates
 
--Checked for duplicates using df.duplicated().
+• Checked for duplicates using df.duplicated().
 
--Removed them with df.drop_duplicates().
+• Removed them with df.drop_duplicates().
 
-4.Data Transformation
+4. Data Transformation
 
--Standardized column formats (date, strings, numeric values).
+• Standardized column formats (date, strings, numeric values).
 
--Renamed inconsistent column names for clarity.
+• Renamed inconsistent column names for clarity.
 
-5.Final Dataset
+5. Final Dataset
 
--Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
+• Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
 
 ⚙️ Technologies Used
 
@@ -52,19 +52,19 @@ I followed a step-by-step approach to clean the dataset:
 
 📊 Key Learnings
 
---Importance of data cleaning before analysis.
+• Importance of data cleaning before analysis.
 
---Hands-on experience with missing value imputation, outlier handling, and data transformation.
+• Hands-on experience with missing value imputation, outlier handling, and data transformation.
 
---Strengthened understanding of Pandas & NumPy operations.
+• Strengthened understanding of Pandas & NumPy operations.
 
 🚀 Future Improvements
 
---Automating the cleaning process with reusable functions.
+• Automating the cleaning process with reusable functions.
 
---Adding visualizations for outlier detection.
+• Adding visualizations for outlier detection.
 
---Creating a pipeline for ETL (Extract, Transform, Load) workflows.
+• Creating a pipeline for ETL (Extract, Transform, Load) workflows.
 
 🙌 Acknowledgments
 
