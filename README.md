@@ -12,7 +12,7 @@ Raw datasets are often messy, containing missing values, duplicates, and irregul
 
 I followed a step-by-step approach to clean the dataset:
 
-1.Data Loading
+1. Data Loading
 
 • Imported the dataset using Pandas.
 
