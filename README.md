@@ -12,31 +12,31 @@ Raw datasets are often messy, containing missing values, duplicates, and irregul
 
 I followed a step-by-step approach to clean the dataset:
 
-1. Data Loading
+1.Data Loading
 
 • Imported the dataset using Pandas.
 
 • Conducted an initial exploration to understand the structure.
 
-2. Handling Missing Values
+2.Handling Missing Values
 
 • Identified missing data.
 
 • Applied methods like dropna(), fillna(), and forward/backward fill depending on the context.
 
-3. Removing Duplicates
+3.Removing Duplicates
 
 • Checked for duplicates using df.duplicated().
 
 • Removed them with df.drop_duplicates().
 
-4. Data Transformation
+4.Data Transformation
 
 • Standardized column formats (date, strings, numeric values).
 
 • Renamed inconsistent column names for clarity.
 
-5. Final Dataset
+5.Final Dataset
 
 • Produced a clean, structured dataset ready for analysis, visualization, or feeding into ML models.
 
