@@ -42,13 +42,13 @@ I followed a step-by-step approach to clean the dataset:
 
 ⚙️ Technologies Used
 
---Python 🐍
+   Python 🐍
 
---Pandas for data manipulation
+   Pandas for data manipulation
 
---NumPy for numerical computations
+   NumPy for numerical computations
 
---Jupyter Notebook for exploration & visualization
+   Jupyter Notebook for exploration & visualization
 
 📊 Key Learnings
 
